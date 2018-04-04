@@ -1,0 +1,49 @@
+.word{
+	font-size: 150%;
+	margin: 15px 30px;
+	display: inline-block;
+	border: 1px solid #000;
+	background-color: #e2e2e2;
+	padding: 15px 15px;
+	cursor: pointer;
+}
+
+.word:hover{
+	border-color: #ff0000;
+	background-color: #fff;
+}
+
+#wordDefinition{
+	font-size: 150%;
+	padding: 15px 15px;
+	margin: 0 0;
+	width: 100%;
+}
+
+#answer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	width: 100%;
+	border: 1px solid #000;
+}
+
+#addWord{
+	text-align: center;
+}
+
+#add{
+	padding: 10px 15px;
+	border: 1px solid #ff0000;
+	background-color: #e2e2e2;
+	cursor: pointer;
+}
+
+h3{
+	margin: 10px 15px;
+}
+
+input{
+	margin: 10px 25px;
+}

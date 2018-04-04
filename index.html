@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple calculator</title>
+	<style type="text/css">
+		button{
+			margin: 0 5px;
+		}
+		input{
+			margin: 0 20px;
+		}
+	</style>
+</head>
+<body>
+<h4>Это простой калькулятор для примера работы JS. Все что нужно, это ввести три числа и нажать на кнопку с определенным действием.</h4>
+<h5>Если не введено число в одно из полей, то калькулятор посчитает это как число 0</h5>
+<form>
+	<input type="number" id="firstNumber" name="fn"><br><br>
+	<input type="number" id="secondNumber" name="sn"><br><br>
+	<input type="number" id="thirdNumber" name="tn"><br><br>
+	<button type="button" onclick="summ()">+</button>
+	<button type="button" onclick="minus()">-</button>
+	<button type="button" onclick="umnozhenie()">*</button>
+	<button type="button" onclick="delenie()">/</button>
+	<button type="button" onclick="clearInputs()">Clear</button><br><br>
+	<input type="text" id="result" name="res">
+</form>
+
+<script type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
+</body>
+</html>

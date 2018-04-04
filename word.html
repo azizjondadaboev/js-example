@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interactive dictionary</title>
+	<link rel="stylesheet" type="text/css" href="word.css">
+</head>
+<body>
+	<div id="addWord">
+		<h2>You can add new word here:</h2>
+		<label for="nword">New word:</label>
+		<input type="text" name="nword" id="nword">
+		<label for="dword">Word definition:</label>
+		<input type="text" name="dword" id="dword">
+		<a id="add">+</a>
+	</div>
+	<h1 align="center">Interactive dictionary</h1>
+	<div id="allWords" style="text-align: center;">
+		<p class="word">Word1</p>
+		<p class="word">Word2</p>
+		<p class="word">Word3</p>
+		<p class="word">Word4</p>
+		<p class="word">Word5</p>
+	</div>
+	<div id="answer">
+		<h3>Word definition:</h3>
+		<p id="wordDefinition"></p>
+	</div>
+	<script type="text/javascript" src="word.js"></script>
+</body>
+</html>
